@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+        Login Page
+    </title>
+
+</head>
+
+<body>
+    <form id="demo">
+        Enter your name :
+        <input type=" text " placeholder="name " autofocus id="name" autocomplete="off" /> Enter your password :
+        <input type="password" placeholder="password">
+        <input type="submit">
+    </form>
+    <script>
+        document.getElementById("demo").onsubmit = function() {
+            let name = document.getElementById("name").value;
+            alert('hello ' + name + ',Welcome to home page');
+        }
+    </script>
+</body>
+
+</html>

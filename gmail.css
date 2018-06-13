@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+.formstyle img {
+    width: 30%;
+    height: 30%;
+    padding: 0;
+    margin-left: -25px;
+}
+
+.formstyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    padding: 30px;
+    background: 2px solid white;
+    border: 0.5pt solid rgb(207, 198, 198);
+    box-sizing: border-box;
+    box-shadow: -1px -1px -1px -1px #f5f2f2;
+    border-radius: 10px;
+}
+
+.formstyle h2 {
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.formstyle h5 {
+    margin: 0;
+    padding: 5px 0 50px 0;
+    color: black;
+}
+
+.formstyle .inputbox {
+    position: relative;
+}
+
+.formstyle .inputbox input {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #1663f1;
+}
+
+.formstyle .inputbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px o;
+    font-size: 14px;
+    color: #1663f1;
+    pointer-events: none;
+    transition: .5s;
+    color: #1663f1;
+}
+
+.formstyle .inputbox input:focus~label {
+    margin-top: 10px;
+    top: -35px;
+    left: 0;
+    color: #1663f1;
+    font-size: 12px;
+}
+
+.formstyle p {
+    font-size: 12px;
+    color: grey;
+    padding: 10px 0 30px 0;
+}
+
+.formstyle a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #1663f1;
+    padding: 10px 0 20px 0;
+}
+
+.formstyle input[type="submit"] {
+    background: #1663f1;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 300px;
+}
