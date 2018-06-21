@@ -1,15 +1,11 @@
-Project Name -
+#Gmail login page
 
-	Gmail Login Page { Only raw site is been created, which looks alike gmail login page}
+ Only raw site is been created, which looks alike gmail login page
 
-Technologies - 
+## Pre-requisites
 
-	Html and CSS
+We assume that you have git on your machine. If not you can download on [git-scm.com](https://git-scm.com/downloads)
 
-commands to clone the repo -
+`git clone https://github.com/keerthanaek/giturl.git`
 
-	git init
-	git add README.md
-	git commit -m "first commit"
-	git remote add origin https://github.com/keerthanaek/giturl
-	git push -u origin master
+
